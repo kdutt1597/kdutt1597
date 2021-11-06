@@ -1,1 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T07:56:48.816Z" agent="5.0 (Windows)" version="15.7.0" etag="KFSAwIfK6JplNrZ8sG22" type="github"><diagram id="WniQbpldySHsIG2xlmXh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-06T08:40:34.840Z" agent="5.0 (Windows)" etag="4hh9uDy11OAuST3YaE_C" version="15.7.0" type="github">
+  <diagram id="WniQbpldySHsIG2xlmXh" name="Page-1">
+    <mxGraphModel dx="1037" dy="535" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFF5ED" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RCjFFhs98x2gk_642Mzw-6" value="User" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="25" y="32" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-7" value="Client Side" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="111" y="10" width="200" height="726" as="geometry" />
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-8" value="User enters the mobile no." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RCjFFhs98x2gk_642Mzw-7">
+          <mxGeometry x="6" y="31" width="183" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-17" value="Customer Enter the OTP on the merchant platform" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RCjFFhs98x2gk_642Mzw-7">
+          <mxGeometry x="10.5" y="108" width="179" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-26" value="Payments Options are listed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RCjFFhs98x2gk_642Mzw-7">
+          <mxGeometry x="12" y="260" width="178" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-9" value="Merchant Server" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="352" y="10" width="219" height="725" as="geometry" />
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-11" value="Calls Send OTP API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RCjFFhs98x2gk_642Mzw-9">
+          <mxGeometry x="11.5" y="34" width="196" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-18" value="Calls Verify OTP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RCjFFhs98x2gk_642Mzw-9">
+          <mxGeometry x="11.5" y="108" width="197.5" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-22" value="Merchant Calls Credit Options API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RCjFFhs98x2gk_642Mzw-9">
+          <mxGeometry x="14" y="182" width="192" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-10" value="PhonePe Server" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="597" y="9" width="200" height="724" as="geometry" />
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-13" value="Validates and send OTP to customer." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RCjFFhs98x2gk_642Mzw-10">
+          <mxGeometry x="10.75" y="34" width="178.5" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-20" value="&lt;div&gt;PhonePe Validates the OTP and&lt;/div&gt;&lt;div&gt;return auth token.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RCjFFhs98x2gk_642Mzw-10">
+          <mxGeometry x="8" y="108" width="182" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-23" value="PhonePe returns the payment options available for the payout." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RCjFFhs98x2gk_642Mzw-10">
+          <mxGeometry x="12.75" y="182" width="177.25" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RCjFFhs98x2gk_642Mzw-8" target="RCjFFhs98x2gk_642Mzw-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RCjFFhs98x2gk_642Mzw-11" target="RCjFFhs98x2gk_642Mzw-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RCjFFhs98x2gk_642Mzw-17" target="RCjFFhs98x2gk_642Mzw-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-15" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.528;entryY=-0.146;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RCjFFhs98x2gk_642Mzw-13" target="RCjFFhs98x2gk_642Mzw-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="693" y="112" as="sourcePoint" />
+            <mxPoint x="216" y="112" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="699" y="100" />
+              <mxPoint x="466" y="95" />
+              <mxPoint x="231" y="100" />
+              <mxPoint x="211" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="563" y="138" as="sourcePoint" />
+            <mxPoint x="605" y="138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RCjFFhs98x2gk_642Mzw-22" target="RCjFFhs98x2gk_642Mzw-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RCjFFhs98x2gk_642Mzw-25" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.571;exitY=1.114;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RCjFFhs98x2gk_642Mzw-23" target="RCjFFhs98x2gk_642Mzw-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="684" y="260" as="sourcePoint" />
+            <mxPoint x="203" y="274" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="711" y="265" />
+              <mxPoint x="196" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
