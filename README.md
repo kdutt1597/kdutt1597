@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @kdutt1597 (Kaushik Dutt)
 - 👀 I’m interested in building awesome websites
-- 🌱 I’m currently learning Javascript
+- 🌱 I’m currently learning ReactJS
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me kdutt1987@gmail.com
 
